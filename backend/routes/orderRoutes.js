@@ -8,7 +8,7 @@ import {
   getOrders,
 } from '../controllers/orderController.js'
 import Router from 'express'
-import { protect, admin } from '../middleware/authMiddleWare.js'
+import { protect, admin } from '../middleware/authMiddleware.js'
 const router = Router()
 
 // route to get order for the admin
